@@ -1,0 +1,26 @@
+{
+  "name": "bem-tools-config",
+  "version": "0.0.1",
+  "description": "bem config command",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "BEM",
+    "bem",
+    "bem-tools",
+    "bem config"
+  ],
+  "author": "",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@bem/sdk.config": "0.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-config-pedant": "^0.8.0",
+    "mocha": "^3.1.0"
+  }
+}
